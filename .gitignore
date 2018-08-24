@@ -1,0 +1,16 @@
+dist
+node_modules
+.DS_Store
+**.DS_Store
+public_gen*
+execute_remote.out
+tmp
+npm-debug.log
+
+# webstorm
+.idea/
+# vscode
+.editorconfig
+
+output
+.svn

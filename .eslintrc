@@ -1,0 +1,96 @@
+{
+  "parser": "babel-eslint",
+  "extends": "airbnb",
+  "plugins": ["compat"],
+  "env": {
+    "browser": true,
+    "node": true,
+    "es6": true,
+    "mocha": true,
+    "jest": true,
+    "jasmine": true
+  },
+  "rules": {
+    "accessor-pairs": 2,
+    "arrow-spacing": [1, {"before": true, "after": true}],
+    "array-bracket-spacing": [1, "never"],
+    "block-spacing": [1, "always"],
+    "brace-style": [0, { "allowSingleLine": true }],
+    "camelcase": [2, {"properties": "always"}],
+    "comma-dangle": [1, "never"],
+    "comma-spacing": [1, { "before": false, "after": true }],
+    "comma-style": [2, "last"],
+    "constructor-super" : "error",
+    "generator-star-spacing": ["error", {"before": false, "after": true}],
+    "consistent-return": [0],
+    "react/forbid-prop-types": [0],
+    "react/jsx-filename-extension": [1, { "extensions": [".js"] }],
+    "global-require": [1],
+    "import/prefer-default-export": [0],
+    "react/jsx-no-bind": [0],
+    "react/prop-types": [0],
+    "react/prefer-stateless-function": [0],
+    "no-else-return": [0],
+    "no-restricted-syntax": [0],
+    "import/no-extraneous-dependencies": [0],
+    "no-use-before-define": [0],
+    "jsx-a11y/no-static-element-interactions": [0],
+    "jsx-a11y/no-noninteractive-element-interactions": [0],
+    "jsx-a11y/click-events-have-key-events": [0],
+    "jsx-a11y/anchor-is-valid": [0],
+    "no-nested-ternary": [0],
+    "arrow-body-style": [0],
+    "arrow-parens":[0],
+    "import/extensions": [0],
+    "no-bitwise": [0],
+    "no-cond-assign": [0],
+    "import/no-unresolved": [0],
+    "object-curly-newline": [0],
+    "operator-linebreak": ["error", "before"],
+    "function-paren-newline": [0],
+    "no-restricted-globals": [0],
+    "require-yield": [1],
+    "compat/compat": "error",
+    "indent": ["error", 4, {
+      "SwitchCase": 1
+    }],
+    "react/jsx-indent": ["error", 4],
+    "react/jsx-indent-props": ["error", 4],
+    "space-before-function-paren": [0, "always"],
+    "eol-last": 0,
+    "react/jsx-no-target-blank": 0,
+    "react/jsx-tag-spacing": ["error", {
+      "closingSlash": "never",
+      "beforeSelfClosing": "never",
+      "afterOpening": "never"
+    }],
+    "react/jsx-closing-tag-location": [1, "line-aliged"],
+    "no-console": "off",
+    "object-curly-spacing": 0,
+    "prefer-destructuring": ["error", {
+      "VariableDeclarator": {
+        "array": false,
+        "object": false
+      },
+      "AssignmentExpression": {
+        "array": false,
+        "object": false
+      }
+    }, {
+      "enforceForRenamedProperties": false
+    }],
+    "class-methods-use-this": 0,
+    "allowForLoopAfterthoughts": true,
+    "max-len": [1, {
+      "code": 120
+    }]
+  },
+  "parserOptions": {
+    "ecmaFeatures": {
+      "experimentalObjectRestSpread": true
+    }
+  },
+  "settings": {
+    "polyfills": ["fetch"]
+  }
+}
