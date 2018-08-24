@@ -1,5 +1,4 @@
 # react-dva-demo
-基于react的基础代码库
 
 ## Getting Started
 Install dependencies.
