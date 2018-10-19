@@ -17,14 +17,7 @@ module.exports = () => {
         '@tab-horizontal-padding': '12px 0',
 
         // Button
-        '@btn-primary-color': '#FFF',
         '@btn-primary-bg': '#608BFF',
-        '@btn-default-color': '#666',
-        '@btn-default-bg': '#EFEFEF',
-        '@btn-default-border': '#EFEFEF',
-        '@btn-danger-color': '#FFFFFF',
-        '@btn-danger-bg': '#F34B60',
-        '@btn-danger-border': '#F34B60',
         '@btn-height-base': '30px',
         '@btn-font-size-sm': '12px',
         '@btn-height-sm': '30px',

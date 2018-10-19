@@ -91,6 +91,6 @@
     }
   },
   "settings": {
-    "polyfills": ["fetch"]
+    "polyfills": ["fetch", "promise"]
   }
 }

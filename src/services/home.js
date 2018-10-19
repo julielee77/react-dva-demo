@@ -9,11 +9,11 @@ import {API_ROOT, METHOD} from 'Src/constants';
 import request from 'Src/utils/request';
 
 export function fetch() {
-    return request(`${API_ROOT.home}XXX`);
+    return request(`${API_ROOT.home}getList`);
 }
 
 export function submit(body) {
-    return request(`${API_ROOT.home}XXX`, {
+    return request(`${API_ROOT.home}getList`, {
         method: METHOD.post,
         body
     }, true);
